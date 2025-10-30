@@ -1,14 +1,17 @@
-n1 = 5.0;
-n2 = 6.0;
-n3 = 7.0;
-n4 = 8.0;
+import readline from 'readline-sync';
+
+let n1 = readline.questionFloat("Digite o valor de n1: ");
+let n2 = readline.questionFloat("Digite o valor de n2: ");
+let n3 = readline.questionFloat("Digite o valor de n3: ");
+let n4 = readline.questionFloat("Digite o valor de n4: ");
 
 let calculo = (n1*n2)-(n3*n4);
 console.log("O resultado do cálculo é: " + calculo);
 
-n5 = 5.0;
-n6 = 6.0;   
-n7 = -7.0;
-n8 = 8.0;
+let n5 = readline.questionFloat("Digite o valor de n5: ");
+let n6 = readline.questionFloat("Digite o valor de n6: ");
+let n7 = readline.questionFloat("Digite o valor de n7: ");
+let n8 = readline.questionFloat("Digite o valor de n8: ");
+
 let calculo2 = (n5*n6)-(n7*n8);
 console.log("O resultado do cálculo 2 é: " + calculo2);

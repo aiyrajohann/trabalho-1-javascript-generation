@@ -1,7 +1,11 @@
-let salario = 10000;
+import readline from 'readline-sync';
+
+let salario = readline.questionFloat("Digite seu salário: ");
 console.log("Seu salário: " + salario);
 
-let abono = 1000;
+let abono = readline.questionFloat("Digite o valor do abono: ");
 console.log("Seu abono: " + abono);
-salarioNovo = salario + abono;
+
+let salarioNovo = salario + abono;
+
 console.log("Seu novo salário: " + salarioNovo);
