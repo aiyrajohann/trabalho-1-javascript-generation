@@ -3,5 +3,5 @@ console.log("Seu salário: " + salario);
 
 let abono = 1000;
 console.log("Seu abono: " + abono);
-salarionovo = salario + abono;
-console.log("Seu novo salário: " + salarionovo);
+salarioNovo = salario + abono;
+console.log("Seu novo salário: " + salarioNovo);
