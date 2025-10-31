@@ -2,7 +2,7 @@ import readline from 'readline-sync';
 
 let nome = readline.question("Digite seu nome: ");
 let idade = readline.questionInt("Digite sua idade: ");
-let primeiraDoacao = readline.question("é sua primeira doação? (s/n): ").toLocaleLowerCase();
+let primeiraDoacao = readline.question("é sua primeira doacao? (s/n): ").toLocaleLowerCase();
 
 if (idade >= 18 && idade <= 59) // faixa etária principal
  console.log(`${nome}, você está apto(a) a doar sangue.`);
